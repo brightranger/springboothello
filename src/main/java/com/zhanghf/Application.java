@@ -11,7 +11,6 @@ public class Application {
     @RequestMapping("/")
     String home(){
         return "hello";
-
     }
     public static void main(String[] args){
         SpringApplication.run(Application.class,args);
